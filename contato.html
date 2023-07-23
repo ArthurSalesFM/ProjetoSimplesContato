@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Arthur Felipe MS">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <!--O autocomplete faz com que não apareça dados inseridos anteriormente-->
+    <form action="" method="post" autocomplete="off">
+
+        <fieldset>
+
+            <legend>Formulário de Contato</legend>
+
+            <label for="name">Nome: </label>
+            <input type="text" name="name" id="name" required placeholder="digite seu nome completo">
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required placeholder="digite uma email válido">
+
+            <label for="subject">Assunto</label>
+            <input type="text" name="subject" id="subject">
+
+            <label for="msg">Mensagem</label>
+            <textarea name="msg" id="msg" rows="7" required maxlength="400" minlength="20" placeholder="Digite sua mensagem..."></textarea>
+
+            <button type="submit" class="btn">Enviar</button>
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
